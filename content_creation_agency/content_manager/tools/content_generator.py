@@ -6,7 +6,7 @@ from anthropic import Anthropic
 
 load_dotenv()
 
-class ContentGenerator(BaseTool):
+class content_generator(BaseTool):
     """
     A tool for generating content ideas using Anthropic's Claude model.
     It takes into account trends and content gaps to suggest new content ideas.
@@ -55,7 +55,7 @@ class ContentGenerator(BaseTool):
         return message.content
 
 if __name__ == "__main__":
-    tool = ContentGenerator(
+    tool = content_generator(
         topic="Technology",
         content_gaps="Beginner-friendly tutorials, in-depth technical reviews",
         trends="AI tools, Productivity software",
