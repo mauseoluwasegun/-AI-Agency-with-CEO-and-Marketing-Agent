@@ -151,7 +151,7 @@ Built with these amazing technologies:
 
 For questions and support, please:
 - Open an issue
-- Contact us at [irokomause@gmail.com]
+- Contact us at irokomause@gmail.com
 - Join our [Discord community](your-discord-link)
 
 ---
